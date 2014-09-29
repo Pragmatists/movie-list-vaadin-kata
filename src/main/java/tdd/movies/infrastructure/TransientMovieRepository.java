@@ -1,10 +1,10 @@
 package tdd.movies.infrastructure;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import tdd.movies.domain.Movie;
 import tdd.movies.domain.MovieRepository;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class TransientMovieRepository implements MovieRepository {
 

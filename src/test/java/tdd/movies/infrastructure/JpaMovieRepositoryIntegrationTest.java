@@ -14,7 +14,7 @@ import javax.persistence.PersistenceContext;
 import java.util.List;
 
 @Transactional
-@ContextConfiguration("classpath:/jdbc-context.xml")
+@ContextConfiguration(classes = JpaConfiguration.class)
 @RunWith(SpringJUnit4ClassRunner.class)
 public class JpaMovieRepositoryIntegrationTest {
 
